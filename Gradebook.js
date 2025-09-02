@@ -1,8 +1,11 @@
 function getAverage(scores) {
-  while (i < scores.length) {
-    console.log(scores[i] / scores.length);
-    
+  let sum = 0;
+  for(let i = 0; i < scores.length; i++){
+    sum += scores[i]
+
   }
+  console.log(sum / scores.length)
+  
 
 }
 
