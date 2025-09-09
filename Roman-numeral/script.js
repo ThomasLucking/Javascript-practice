@@ -10,7 +10,7 @@ const numeralConversion = () => {
     let number = parseInt(input.value);
     let result = ""
 
-    romannumerals = {
+    const romannumerals = {
         "M": 1000,
         "CM": 900,
         "D": 500,
@@ -37,7 +37,6 @@ const numeralConversion = () => {
     output.innerText = result;    
     
 }
-
 
 button.addEventListener('click', () => {
     if (input.value === "") {
